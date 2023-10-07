@@ -1,0 +1,192 @@
+
+
+
+{
+  "protection_regles_victime" : {
+    "applique_pas" : {
+      "r1" : "Activité qui ne relève pas du champs d’application de l’Union",
+      "r2" : "Par les autorités compétantes (détections, préventions d’infractions pénales..)",
+      "r3" : "Dans le cadre d’une activités personnelles ou domestiques.",
+      "r4" : "Par les états membres dans le cas d’une activités du « chapitre 2 du titre V du traité sur l'Union européenne »"
+      },
+      "applique" : [
+        {
+          "r1": "A la responsabilité des prestataires de services intermédiaires.",
+          "r2": "Au traitement des données à caractère personnel relatives aux condamnations pénales et aux infractions ne peut être effectué que sous le contrôle de l’autorité publique, par le droit de l’Union, le droit d’un État membre",
+          "r3": "Aux personnes concernées dans l'Union, qu'un paiement soit exigé ou non desdites personnes, au suivi du comportement de ces personnes (Article3)",
+          "r4": "Aux institutions, organes et organismes de l'Union.",
+          "les donnees" : {
+            "r1" : "Doivent etre traités de manière licite, loyal et transparente",
+            "r2" : "Doivent etre collectées pour des finalités déterminées, explicites et légitimes, et ne pas être traitées ultérieurement d'une manière incompatible avec ces finalités",
+            "r3" : "Doivent etre dans l'intérêt public, à des fins de recherche scientifique ou historique ou à des fins statistiques (pas considéré comme incompatible)",
+            "r4" : "Doivent etre adéquates, pertinentes et limitées à ce qui est nécessaire"
+          },
+          "contrat" : {
+            "r1" : "la personne concernée a consenti au traitement de ses données à caractère personne",
+            "r2" : "le traitement est nécessaire à l'exécution d'un contrat, d'une obligation légale,  à la sauvegarde des intérêts vitaux, l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique (Article 6)"
+          },
+          "traitement licite" : {
+            "r1" : "Le traitement des données à caractère personnel ne révèle pas l'origine raciale, ethnique,religieuses, données génétiques,biométriques, concernant la santé,vie sexuelle/orientation -> interdit(Article 9)",
+            "r2" : "le traitement est nécessaire à la sauvegarde des intérêts vitaux",
+            "r3" : "si les données son manifestement rendues publiques par la personne concernée",
+            "r4" : "si ces données sont traitées par un professionnel soumis à une obligation de secret professionnel",
+            "consentement" : {
+              "r1" : "Si, consentement accessible, comprehensible et formuler de avec terme clair et simple (article 7)",
+              "r2" : "Possibiliteé de retirer le consentement (article 7)",
+              "r3" : "Accord d'un responsable legal et un moyen de verifier que ca soit bien le responsable legal pour les mineurs de moins de 15 ans"
+            }
+          }
+        }
+      ]
+
+    },
+  "responsable traitement" : {
+    "consultation prealable" : {
+      "accessibilite des donnees" : {
+        "r1" : "l'identité et les coordonnées du responsable du traitement,",
+        "obtention donnees a caractere personnel" : {
+          "r1" : "pouvoir fournir la durée de conservation des données à caractère personnel",
+          "r2" : "fournir l'existence du droit de demander au responsable du traitement l'accès aux données à caractère personnel",
+          "r3" : "pourvoir founir la possibilitée de rectifier ou d'effacer celles-ci",
+          "r4" : "le droit d'introduire une réclamation auprès d'une autorité de contrôle. (Article 13)",
+          "r5" : "donner la confirmation que des données à caractère personnel la concernant sont ou ne sont pas traitées (Article 15)",
+          "r6" : "droit d’obtenir dans les plus brefs délais rectification des données à caractère personnel la concernant qui sont inexactes & incomplètes soient complétées, y compris en fournissant une déclaration complémentaire. (Article 16)",
+          "r7" : "Le responsable du traitement a l'obligation d'effacer ces données à caractère personnel dans les meilleurs délais",
+          "r8" : "La personne concernée a le droit d'obtenir du responsable du traitement la limitation du traitement",
+          "r9" : "Obligation de notification en ce qui concerne la rectification ou l'effacement de données à caractère personnel ou la limitation du traitement",
+          "r10" : "les personnes concernées ont le droit de recevoir les données à caractère personnel les concernant qu'elles ont fournies à un responsable du traitement, dans un format structuré, couramment utilisé et lisible par machine, elle a le droit d'obtenir que les données à caractère personnel soient transmises directement d'un responsable du traitement à un autre",
+          "r11" : "La personne concernée a le droit de s'opposer à tout moment, pour des raisons tenant à sa situation particulière"
+        },
+        "recupration donnees a caractere personnel autre personne" : {
+          "r1" : "pouvoir fournir l'identité et les coordonnées du responsable du traitement et, le cas échéant, du représentant du responsable du traitement;",
+          "r2" : "pouvoir fournir le cas échéant, les coordonnées du délégué à la protection des données",
+          "r3" : "pouvoir fournir les finalités du traitement auquel sont destinées les données à caractère personnel ainsi que la base juridique du traitement",
+          "r4" : "pouvoir fournir les catégories de données à caractère personnel concernées",
+          "r5" : "pouvoir founir le cas échéant, les destinataires ou les catégories de destinataires des données à caractère personnel"
+        }
+      },
+      "r1" : "Le responsable du traitement prend des mesures appropriées pour fournir toute information visée, d’une façon concise, transparente, compréhensible et aisément accessible, en des termes clairs et simples (Article 12)",
+      "r2" : "être en mesure de démontrer que le traitement est effectué conformément au présent règlement. Ces mesures sont réexaminées et actualisées si nécessaire. (Article 24)",
+      "r3" : "le responsable du traitement met en œuvre, tant au moment de la détermination des moyens du traitement qu'au moment du traitement lui-même : telles que la pseudonymisation, minimisation des données.",
+      "r4" : "seules les données à caractère personnel qui sont nécessaires au regard de chaque finalité sont traitées. Cela s'applique à la quantité de données à caractère personnel collectées, à l'étendue de leur traitement, à leur durée de conservation et à leur accessibilité",
+      "r5" : "consentement à l'accessibilité a un nombre indeterminé de personnes des donnees a caractere personnel la concernant",
+      "r6" : "le cas échéant, le représentant du responsable du traitement/sous traitant/responsable du traitement doivent tenir un registre des activités de traitement effectuées.",
+      "r7" : "Mettre en œuvre les mesures techniques et organisationnelles appropriées afin de garantir un niveau de sécurité adapté au risque (a) la pseudonymisation et le chiffrement des données à caractère personnel;,b) des moyens permettant de garantir la confidentialité, l'intégrité, la disponibilité et la résilience constantes des systèmes et des services de traitement;,c) des moyens permettant de rétablir la disponibilité des données à caractère personnel et l'accès à celles-ci dans des délais appropriés en cas d'incident physique ou technique;,d) une procédure visant à tester, à analyser et à évaluer régulièrement l'efficacité des mesures techniques et organisationnelles pour assurer la sécurité du traitement.",
+      "r8" : "mesures afin de garantir que toute personne physique agissant sous l'autorité du responsable du traitement/sous-traitants, ne les traite pas, excepté sur instruction du responsable du traitement, à moins d'y être obligée par le droit de l'Union ou le droit d'un État membre. (Article 32)",
+      "r9" : "Lorsqu'une violation de données à caractère personnel est susceptible d'engendrer un risque élevé pour les droits et libertés d'une personne physique, le responsable du traitement communique la violation de données à caractère personnel à la personne concernée dans les meilleurs délais.(Article 34)"
+    },
+    "analyse impact relative protection d'une obligation légale, d'intérêt public ou relevant de l'exercice de l'autorité publique": {
+      "requis" : {
+        "r1" : "l'évaluation systématique et approfondie d'aspects personnels concernant des personnes physiques, qui est fondée sur un traitement automatisé, y compris le profilage, et sur la base de laquelle sont prises des décisions produisant des effets juridiques à l'égard d'une personne physique ou l'affectant de manière significative de façon similaire",
+        "r2" : "le traitement à grande échelle de catégories particulières de données visées à l'article 9, paragraphe 1 (qui révèle l'origine raciale ou ethnique, les opinions politiques, les convictions religieuses ou philosophiques ou l'appartenance syndicale, ainsi que le traitement des données génétiques, des données biométriques), ou de données à caractère personnel relatives à des condamnations pénales et à des infractions visées",
+        "r3" : "la surveillance systématique à grande échelle d'une zone accessible au public."
+      },
+      "pas mesure risque eleve communiquer autorite controle" : {
+        "r1" : "pouvoir fournir le cas échéant, les responsabilités respectives du responsable du traitement, des responsables conjoints et des sous-traitants participant au traitement, en particulier pour le traitement au sein d'un groupe d'entreprises",
+        "r2" : "pouvoir fournir les finalités et les moyens du traitement envisagé",
+        "r3" : "pouvoir fournir les mesures et les garanties prévues afin de protéger les droits et libertés des personnes concernées en vertu du présent règlement",
+        "r4" : "pouvoir fournir le cas échéant, les coordonnées du délégué à la protection des données",
+        "r5" : "pouvoir fournir l'analyse d'impact relative à la protection des données prévue à l'article 35",
+        "r6" : "pouvoir fournir toute autre information que l'autorité de contrôle demande."
+      },
+      "analyse doit contenir au moins" : {
+        "r1" : "une description systématique des opérations de traitement envisagées et des finalités du traitement, y compris, le cas échéant, l'intérêt légitime poursuivi par le responsable du traitement",
+        "r2" : "une évaluation de la nécessité et de la proportionnalité des opérations de traitement au regard des finalités",
+        "r3" : "une évaluation des risques pour les droits et libertés des personnes concernées conformément au paragraphe 1",
+        "r4" : "les mesures envisagées pour faire face aux risques, y compris les garanties, mesures et mécanismes de sécurité visant à assurer la protection des données à caractère personnel et à apporter la preuve du respect du présent règlement, compte tenu des droits et des intérêts légitimes des personnes concernées et des autres personnes affectées."
+      }
+    },
+
+
+
+
+
+
+    "analyse impact relative protection" : {
+      "requis" : {
+        "r1" : "l'évaluation systématique et approfondie d'aspects personnels concernant des personnes physiques, qui est fondée sur un traitement automatisé, y compris le profilage, et sur la base de laquelle sont prises des décisions produisant des effets juridiques à l'égard d'une personne physique ou l'affectant de manière significative de façon similaire",
+        "r2" : "le traitement à grande échelle de catégories particulières de données visées à l'article 9, paragraphe 1 (qui révèle l'origine raciale ou ethnique, les opinions politiques, les convictions religieuses ou philosophiques ou l'appartenance syndicale, ainsi que le traitement des données génétiques, des données biométriques), ou de données à caractère personnel relatives à des condamnations pénales et à des infractions visées",
+        "r3" : "la surveillance systématique à grande échelle d'une zone accessible au public."
+      },
+      "pas mesure risque eleve communiquer autorite controle" : {
+        "r1" : "pouvoir fournir le cas échéant, les responsabilités respectives du responsable du traitement, des responsables conjoints et des sous-traitants participant au traitement, en particulier pour le traitement au sein d'un groupe d'entreprises",
+        "r2" : "pouvoir fournir les finalités et les moyens du traitement envisagé",
+        "r3" : "pouvoir fournir les mesures et les garanties prévues afin de protéger les droits et libertés des personnes concernées en vertu du présent règlement",
+        "r4" : "pouvoir fournir le cas échéant, les coordonnées du délégué à la protection des données",
+        "r5" : "pouvoir fournir l'analyse d'impact relative à la protection des données prévue à l'article 35",
+        "r6" : "pouvoir fournir toute autre information que l'autorité de contrôle demande."
+      },
+      "analyse doit contenir au moins" : {
+        "r1" : "une description systématique des opérations de traitement envisagées et des finalités du traitement, y compris, le cas échéant, l'intérêt légitime poursuivi par le responsable du traitement",
+        "r2" : "une évaluation de la nécessité et de la proportionnalité des opérations de traitement au regard des finalités",
+        "r3" : "une évaluation des risques pour les droits et libertés des personnes concernées conformément au paragraphe 1",
+        "r4" : "les mesures envisagées pour faire face aux risques, y compris les garanties, mesures et mécanismes de sécurité visant à assurer la protection des données à caractère personnel et à apporter la preuve du respect du présent règlement, compte tenu des droits et des intérêts légitimes des personnes concernées et des autres personnes affectées."
+      }
+    },
+    "election delegue protection donnee" : {
+      "r1" : "le traitement est effectué par une autorité publique ou un organisme public, à l'exception des juridictions agissant dans l'exercice de leur fonction juridictionnelle;",
+      "r2" : "les activités de base du responsable du traitement ou du sous-traitant consistent en des opérations de traitement qui, du fait de leur nature, de leur portée et/ou de leurs finalités, exigent un suivi régulier et systématique à grande échelle des personnes concernées",
+      "r3" : "les activités de base du responsable du traitement ou du sous-traitant consistent en un traitement à grande échelle de catégories particulières de données visées à l’article 9 ou de données à caractère personnel relatives à des condamnations pénales et à des infractions visées à l’article 10."
+    },
+    "si delegue elu" : {
+      "r1" : "publier les coordonnées du délégué à la protection des données et les communiquent à l'autorité de contrôle.",
+      "r2" : "le délégué à la protection des données soit associé, d'une manière appropriée et en temps utile, à toutes les questions relatives à la protection des données à caractère personnel.",
+      "r3" : "la protection des données est soumis au secret professionnel ou à une obligation de confidentialité en ce qui concerne l'exercice de ses missions, conformément au droit de l'Union ou au droit des États membres.",
+      "r4" : "les missions et tâches du delegue a la protection des données n'entraînent pas de conflit d'intérêts."
+    },
+    "code de conduite" : {
+      "r1" : "le traitement loyal et transparent;",
+      "r2" : "les intérêts légitimes poursuivis par les responsables du traitement dans des contextes spécifiques",
+      "r3" : "la collecte des données à caractère personnel",
+      "r4" : "la pseudonymisation des données à caractère personnel",
+      "r5" : "les informations communiquées au public et aux personnes concernées",
+      "r6" : "l'exercice des droits des personnes concernées",
+      "r7" : "les informations communiquées aux enfants et la protection dont bénéficient les enfants et la manière d'obtenir le consentement des titulaires de la responsabilité parentale à l'égard de l'enfant",
+      "r8" : "les mesures et les procédures visées aux articles 24 et 25 et les mesures visant à assurer la sécurité du traitement visées à l'article 32",
+      "r9" : "la notification aux autorités de contrôle des violations de données à caractère personnel et la communication de ces violations aux personnes concernées",
+      "r10" : "le transfert de données à caractère personnel vers des pays tiers ou à des organisations internationales",
+      "r11" : "les procédures extrajudiciaires et autres procédures de règlement des litiges permettant de résoudre les litiges entre les responsables du traitement et les personnes concernées en ce qui concerne le traitement, sans préjudice des droits des personnes concernées au titre des articles 77 et 79.",
+      "r12" : "s'engager à l'appliquer, sans préjudice des missions et des pouvoirs de l'autorité de contrôle qui est compétente en vertu de l'article 55 ou 56."
+    },
+
+
+
+
+    "certifaction" : {
+      "r1" : "La certification est volontaire et accessible via un processus transparent.",
+      "r2" : "fournir à l'organisme de certification visé à l'article 43 ou, le cas échéant, à l'autorité de contrôle compétente toutes les informations ainsi que l'accès à ses activités de traitement, qui sont nécessaires pour mener la procédure de certification.",
+      "validite" : {
+        "r1" : "démontrer, à la satisfaction de l'autorité de contrôle compétente, leur indépendance et leur expertise au regard de l'objet de la certification",
+        "r2" : "prendre l'engagement de respecter les critères visés à l'article 42, paragraphe 5, et approuvés par l'autorité de contrôle qui est compétente en vertu de l'article 55 ou 56 ou par le comité, en vertu de l'article 63;",
+        "r3" : "mettre en place des procédures en vue de la délivrance, de l'examen périodique et du retrait d'une certification, de labels et de marques en matière de protection des données",
+        "r4" : "établir des procédures et des structures pour traiter les réclamations relatives aux violations de la certification ou à la manière dont la certification a été ou est appliquée par un responsable du traitement ou un sous-traitant, et pour rendre ces procédures et structures transparentes à l'égard des personnes concernées et du public",
+        "r5" : "démontrer, à la satisfaction de l'autorité de contrôle compétente, que leurs tâches et leurs missions n'entraînent pas de conflit d'intérêts."
+      },
+      "r3" : "preciser aux autorités de contrôle compétentes les raisons de la délivrance ou du retrait de la certification demandée."
+
+    },
+    "transfert de donnee internationale" : {
+      "r1" : "le pays iters  un territoire ou un ou plusieurs secteurs déterminés dans ce pays tiers, ou l'organisation internationale en question assure un niveau de protection adéquat.",
+      "r2" : "prevoir des clauses contractuelles entre le responsable du traitement ou le sous-traitant et le responsable du traitement, le sous-traitant ou le destinataire des données à caractère personnel dans le pays tiers ou l'organisation internationale",
+      "r3" : "prevoir des dispositions à intégrer dans des arrangements administratifs entre les autorités publiques ou les organismes publics qui prévoient des droits opposables et effectifs pour les personnes concernées.",
+      "garanties appropriées" : {
+        "r1" : "fournir un instrument juridiquement contraignant et exécutoire entre les autorités ou organismes publics",
+        "r2" : "fournir des règles d'entreprise contraignantes conformément à l'article 47",
+        "r3" : "fournir des clauses types de protection des données adoptées par la Commission en conformité avec la procédure d'examen visée à l'article 93, paragraphe 2",
+        "r4" : "fournir des clauses types de protection des données adoptées par une autorité de contrôle et approuvées par la Commission en conformité avec la procédure d'examen visée à l'article 93, paragraphe 2",
+        "r5" : "fournir un code de conduite approuvé conformément à l'article 40, assorti de l'engagement contraignant et exécutoire pris par le responsable du traitement ou le sous-traitant dans le pays tiers d'appliquer les garanties appropriées, y compris en ce qui concerne les droits des personnes concernées",
+        "r6" : "fournir un mécanisme de certification approuvé conformément à l'article 42, assorti de l'engagement contraignant et exécutoire pris par le responsable du traitement ou le sous-traitant dans le pays tiers d'appliquer les garanties appropriées, y compris en ce qui concerne les droits des personnes concernées."
+      },
+      "condition transfert une des contions" : {
+        "r1" : "la personne concernée a donné son consentement explicite au transfert envisagé, après avoir été informée des risques que ce transfert pouvait comporter pour elle en raison de l'absence de décision d'adéquation et de garanties appropriées",
+        "r2" : "le transfert est nécessaire à l'exécution d'un contrat entre la personne concernée et le responsable du traitement ou à la mise en œuvre de mesures précontractuelles prises à la demande de la personne concernée",
+        "r3" : "le transfert est nécessaire à la conclusion ou à l'exécution d'un contrat conclu dans l'intérêt de la personne concernée entre le responsable du traitement et une autre personne physique ou morale",
+        "r4" : "le transfert est nécessaire pour des motifs importants d'intérêt public",
+        "r5" : "le transfert est nécessaire à la constatation, à l'exercice ou à la défense de droits en justice",
+        "r6" : "le transfert est nécessaire à la sauvegarde des intérêts vitaux de la personne concernée ou d'autres personnes, lorsque la personne concernée se trouve dans l'incapacité physique ou juridique de donner son consentement",
+        "r7" : "le transfert a lieu au départ d'un registre qui, conformément au droit de l'Union ou au droit d'un État membre, est destiné à fournir des 'informations au public et est ouvert à la consultation du public en général ou de toute personne justifiant d'un intérêt légitime, mais uniquement dans la mesure où les conditions prévues pour la consultation dans le droit de l'Union ou le droit de l'État membre sont remplies dans le cas d'espèce."
+      }
+    }
+
+    }
+}

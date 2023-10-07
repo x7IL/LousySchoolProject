@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javafx-swt">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/javafx-swt.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/cours/1ere_cybersecurite/Programmation_oriente_objet/Projet/openjfx-17.0.2_windows-x64_bin-sdk/javafx-sdk-17.0.2/lib/javafx-swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,51 @@
+body
+{
+    color:black;
+    background-color:white;
+    background-image:url("image/fondD.png");
+    text-align:center;
+    margin:0;
+}
+h1
+{
+	font-size: 4.5em;
+	text-align:center;
+	text-decoration:underline;
+	border: 3px black inset;
+	color: black;
+}
+#video_background 
+{
+	position: absolute;
+	bottom: 0px; 
+	right: 0px; 
+	left: 0px;
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden;
+}
+a:active
+{
+    background-color: orange;
+}
+a:visited 
+{
+    color: orange;
+}
+p
+{
+	text-shadow: 2px 3px 5px black;
+	font-size: 1.75em;
+	text-align:center; 
+	color: black
+}
+b
+{
+	text-shadow: 2px 3px 5px black;
+	font-size: 2em;
+	text-align:center;
+	color: black
+}

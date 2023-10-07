@@ -1,0 +1,12 @@
+{
+    "name": "vendor/monsite.lan",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\MonsiteLan\\": "src/"
+        }
+    },
+    "require": {
+	"laminas/laminas-session": "^2.16",
+        "google/recaptcha": "^1.3"
+    }
+}

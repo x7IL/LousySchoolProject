@@ -1,0 +1,448 @@
+/*
+font-family: 'Teko', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Teko:wght@300&display=swap');
+
+
+
+html{
+    height: 100%;
+    /*background-color: #F6F0C4;*/
+
+}
+html,body{
+    width: 100%;
+}
+html, body, .bar_search, .log_in_up .button_log_in:hover,.log_in_up .button_sign_up:hover {
+    background-image: linear-gradient(45deg, #F6F0C4, #F6F0C4,#86dcc6,#b7fb87);
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: gradient 15s ease infinite;
+
+}
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/*############################## navbar ###############################*/
+.navbar {
+    position: fixed;
+    background-color: transparent;
+    /*opacity: 0.9;*/
+    flex-grow: 1;
+    flex-direction: row;
+    margin-top: 0 ;
+    align-items: center;
+    display: inline-flex;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 5%;
+}
+.logo_nom{
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    display: inline-flex;
+    background-color: transparent;
+    width: 10%;
+}
+.logo_nom h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.7em;
+    margin-top: 25px;
+    color: black;
+}
+#image_logo{
+    /*height: 2%;*/
+    width: 35%;
+}
+.search_bar {
+    position: center;
+    margin: 0 auto;
+    max-width: 20%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.navbar .bar_search{
+    height: 40px;
+    width: 300%;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 9999px;
+}
+.log_in_up{
+    flex-direction: row;
+    display: inline-flex;
+}
+.log_in_up .button_log_in {
+    transition: 0.7s ease;
+    border-radius: 9999px;
+    background-color: transparent;
+    color: black;
+    margin-left: 10px;
+    margin-right: 30px;
+    border: 1px solid black;
+    font-family: 'Teko', sans-serif;
+    width: 110px;
+    height: 50px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+}
+.log_in_up .button_sign_up{
+    transition: 0.7s ease;
+    border-radius: 9999px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-family: 'Teko', sans-serif;
+    width: 110px;
+    height: 50px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+}
+.log_in_up .button_log_in:hover{
+    transition: 0.7s ease;
+    background-color: #212121;
+    border: 1px solid black;
+    color: black;
+}
+.log_in_up .button_sign_up:hover {
+    transition: 0.7s ease;
+    border: 1px solid black;
+    background-color: #212121;
+    color: black;
+}
+
+/*########## menue déroulant ##########*/
+nav span{
+    width: 100%;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    margin: 0 20px 0 auto;
+}
+
+span ul{
+    list-style-type: none;
+
+}
+
+span ul a{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    margin-top: -5px;
+}
+
+span ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+span a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+
+span a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+span .sous{
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.sous a{
+    float: none;
+    width: 100%;
+    text-align: left;
+    /*margin-right: 20px;*/
+    margin-left: -40px;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+span:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    display:block !important;
+    position:absolute;
+    margin-top:0px;
+    margin-left:-10px;
+}
+/*############################## pub ###############################*/
+
+.pub_gauche{
+    position: fixed;
+    margin-top: 10%;
+    left: 2%;
+    background-color: whitesmoke;
+    color: #212121;
+    width: 20%;
+    height: 500px;
+    vertical-align: top;
+    z-index: 5;
+    border: 1px solid aliceblue;
+    max-width: 20%;
+    min-width: 10%;
+}
+.pub_droite{
+    position: fixed;
+    margin-top: 10%;
+    right: 2%;
+    background-color: whitesmoke;
+    color: #212121;
+    width: 20%;
+    height: 500px;
+    vertical-align: top;
+    z-index: 5;
+    border: 1px solid aliceblue;
+    max-width: 20%;
+    min-width: 10%;
+}
+
+/*############################## center ###############################*/
+
+.contenue{
+    margin-top: 70px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    display: block;
+    vertical-align: top;
+    overflow: auto;
+    min-height: 200px;
+    width: 100%;
+    min-width: 50%;
+    max-width: 50%;
+    margin: auto;
+    overflow-y: hidden;
+}
+.center{
+    /*background-color: #FAFAFA;*/
+    /*position: center;*/
+    display: inline-block;
+    overflow: auto;
+    text-align: left;
+    min-height: 200px;
+    min-width: 100%;
+    margin-top: 5%;
+    overflow-y: hidden;
+}
+
+
+/*############ formulaire de post des messages dans profile ############*/
+
+.formulaire_inscription label{
+    display: inline-block;
+    vertical-align: top;
+}
+.formulaire_connexion{
+    display: block;
+    float: left;
+}
+body h1 {
+    font-family: 'Teko', sans-serif;
+}
+
+/*############ formulaire de post des messages dans profile ############*/
+
+
+
+
+
+/*LOL*/
+*,
+ ::after,
+ ::before {
+     box-sizing: border-box;
+ }
+
+
+h1 {
+    font-size: 23px;
+}
+
+.form {
+    width: 300px;
+    padding: 64px 15px 24px;
+    margin: 0 auto;
+}
+.form .control {
+    margin: 0 0 24px;
+}
+.form .control input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 0;
+    background: transparent;
+    color: black;
+    font-family: monospace, serif;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+}
+.form .control input:hover, .form .control input:focus {
+    outline: none;
+    border: 0;
+}
+.form .btn {
+    width: 100%;
+    display: block;
+    padding: 14px 16px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    color: black;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.block-cube {
+    position: relative;
+}
+.block-cube .bg-top {
+    position: absolute;
+    height: 10px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #340979 37%, #00d4ff 94%);
+    bottom: 100%;
+    left: 5px;
+    right: -5px;
+    transform: skew(-45deg, 0);
+    margin: 0;
+}
+.block-cube .bg-top .bg-inner {
+    bottom: 0;
+}
+.block-cube .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #340979 37%, #00d4ff 94%);
+}
+.block-cube .bg-right {
+    position: absolute;
+    background: #020024;
+    background: #00d4ff;
+    top: -5px;
+    z-index: 0;
+    bottom: 5px;
+    width: 10px;
+    left: 100%;
+    transform: skew(0, -45deg);
+}
+.block-cube .bg-right .bg-inner {
+    left: 0;
+}
+.block-cube .bg .bg-inner {
+    transition: all 0.2s ease-in-out;
+}
+.block-cube .bg-inner {
+    background: darkslategray;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    background-size: 400% 400%;
+
+    animation: gradient 15s ease infinite;
+}
+.block-cube .text {
+    position: relative;
+    z-index: 2;
+}
+.block-cube.block-input input {
+    position: relative;
+    z-index: 2;
+}
+.block-cube.block-input input:focus ~ .bg-right .bg-inner, .block-cube.block-input input:focus ~ .bg-top .bg-inner, .block-cube.block-input input:focus ~ .bg-inner .bg-inner {
+    top: 100%;
+    background: rgba(100, 200, 255, 0.5);
+}
+.block-cube.block-input .bg-top,
+.block-cube.block-input .bg-right,
+.block-cube.block-input .bg {
+    background: rgba(255, 100, 100, 0.5);
+    transition: background 0.2s ease-in-out;
+}
+.block-cube.block-input .bg-right .bg-inner,
+.block-cube.block-input .bg-top .bg-inner {
+    transition: all 0.2s ease-in-out;
+}
+.block-cube.block-input:focus .bg-top,
+.block-cube.block-input:focus .bg-right,
+.block-cube.block-input:focus .bg, .block-cube.block-input:hover .bg-top,
+.block-cube.block-input:hover .bg-right,
+.block-cube.block-input:hover .bg {
+    background: rgba(100, 100, 255, 0.8);
+}
+.block-cube.block-cube-hover:focus .bg .bg-inner, .block-cube.block-cube-hover:hover .bg .bg-inner {
+    top: 100%;
+}
+
+.credits {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 15px 15px;
+    width: 100%;
+    z-index: 111;
+}
+.credits a {
+    opacity: 0.6;
+    color: black;
+    font-size: 11px;
+    text-decoration: none;
+}
+.credits a:hover {
+    opacity: 1;
+}
+
+
+
+
+
+#follower:hover, #suivie:hover{
+    font-size: 1.2em;
+    transition:all 1s ease;
+    border-bottom: 1px black solid;
+}
